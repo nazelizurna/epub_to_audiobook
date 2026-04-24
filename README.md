@@ -1,7 +1,3 @@
-Here's a clean README for your audiobook converter:
-
----
-
 # EPUB to Audiobook Converter
 
 A lightweight Python script that converts EPUB e-books into chapter-by-chapter MP3 audiobooks using Microsoft Edge's free neural text-to-speech voices (via `edge-tts`).
