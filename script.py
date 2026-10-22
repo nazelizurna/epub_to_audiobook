@@ -5,7 +5,7 @@ import asyncio
 import edge_tts
 from pathlib import Path
 
-async def resume_conversion(start_chapter=22):
+async def resume_conversion(start_chapter=1):
     # 1. Path Setup
     desktop = Path.home() / "Desktop"
     icloud = Path.home() / "Library/Mobile Documents/com~apple~CloudDocs/Desktop"
