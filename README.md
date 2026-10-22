@@ -36,11 +36,10 @@ Chapter_02.mp3
 
 ## Usage
 
-### Start from Chapter 18 (default)
-The script is pre-configured to start from Chapter 18:
+### Start from Chapter 1 (default)
 
 ```python
-asyncio.run(resume_conversion(start_chapter=18))
+asyncio.run(resume_conversion(start_chapter=1))
 ```
 
 ### Start from a different chapter
@@ -55,7 +54,7 @@ Or run directly in Python:
 ```python
 import asyncio
 from audiobook_converter import resume_conversion
-asyncio.run(resume_conversion(start_chapter=5))
+asyncio.run(resume_conversion(start_chapter=1))
 ```
 
 ## How It Works
